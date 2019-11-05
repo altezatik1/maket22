@@ -27,12 +27,12 @@ body {
 	margin-bottom:300px;
 }
 .link_logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  text-decoration: none;
-  margin-right: 210px;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	width: 180px;
+  	text-decoration: none;
+  	margin-right: 210px;
 }
 
 .link_logo_svg {
@@ -46,19 +46,19 @@ body {
 	letter-spacing: -1.36px;}
 
 .link_logo:hover .link_logo_svg {
-  fill: darkgray;
+  	fill: darkgray;
 }
 
 .link_logo:hover .link_logo_txt {
-  color: darkgray;
+  	color: darkgray;
 }
 
 .link_logo:active .link_logo_svg {
-  fill: gold;
+  	fill: gold;
 }
 
 .link_logo:active .link_logo_txt {
-  color: gold;
+  	color: gold;
 }
 
 .main_menu {
@@ -69,17 +69,17 @@ body {
 .main_menu_ul {
 	list-style-type: none;
 	display: flex;
-  justify-content: space-between;
+  	justify-content: space-between;
 }
 .main_menu_button {
-  display: block;
-  width: 100%;
-  height: 100%;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  	display: block;
+ 	 width: 100%;
+  	height: 100%;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	font-family: 'Montserrat', sans-serif;
+  	font-size: 14px;
 }
 
 .main_menu_button:hover {
@@ -97,24 +97,24 @@ body {
 }
 
 input[type="search"] {
-  width: 24px;
-  height: 24px;
-  outline: none;
-  border:none;
-  background-image: url(../img/icon-search.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color:transparent;
-  margin-left:29px;
+  	width: 24px;
+  	height: 24px;
+  	outline: none;
+  	border:none;
+  	background-image: url(../img/icon-search.svg);
+  	background-size: contain;
+  	background-repeat: no-repeat;
+  	background-color:transparent;
+  	margin-left:29px;
 }
 
 input[type="search"]:focus {
-  position:absolute;
-  width: 300px;
-  transition: width 1s ease-out;
-  background-position: right;
-  background-color: white;
-  border:1px solid darkgray;
+  	position:absolute;
+  	width: 300px;
+  	transition: width 1s ease-out;
+  	background-position: right;
+  	background-color: white;
+  	border:1px solid darkgray;
 }
 .header_paggination {
 	color:white;
@@ -181,8 +181,8 @@ input[type="search"]:focus {
 }
 
 .paggination_arrow_right {
-	 position: absolute;
-	 top: 100px;
+	position: absolute;
+	top: 100px;
     left: -800px;
 }
 .paggination_arrow_left {

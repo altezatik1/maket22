@@ -210,4 +210,5 @@ input[type="search"]:focus {
 	transform: scale(1.3);
   	border: 2px solid #d3c1ad;
   	background-color: transparent;
+  	
 }

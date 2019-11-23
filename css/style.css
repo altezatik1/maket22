@@ -1060,7 +1060,9 @@ input[type="search"]:focus {
 .recent-arrows a:hover {
 	fill: #c7b299;
 }
-
+.recent-arrows a:active {
+	fill: orange;
+}
 .partners {
 	min-height: 489px;
 	background-image: url(../img/partners.jpg);
